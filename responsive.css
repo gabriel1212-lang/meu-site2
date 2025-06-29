@@ -1,0 +1,118 @@
+
+@media (max-width: 480px) {
+    header .menu-desktop nav ul li {
+        margin: 0 10px;
+    }
+
+    .hero-site .txt-hero h1 {
+        font-size: 2em;
+        line-height: 40px;
+    }
+
+    .hero-site .txt-hero p {
+        font-size: 14px;
+    }
+
+    .contato .icons-contato button {
+        width: 100%;
+    }
+
+    .instrucoes .instru-box {
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    header .menu-desktop nav ul li {
+        margin: 0 20px;
+    }
+
+    .vantagens .itens-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .vantagens .itens-container .img-itens img {
+        max-width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .txt-funciona, .instrucoes {
+        width: 100%;
+        display: block;
+    }
+
+    .como-funciona .txt-funciona {
+        position: static;
+        margin-bottom: 40px;
+    }
+
+    .instrucoes .instru-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .instrucoes .instru-box img {
+        max-width: 80px;
+    }
+}
+
+/* Telas menores que 768px (celulares) */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px 0;
+    }
+
+    header .menu-desktop {
+        display: none;
+    }
+
+    .hero-site .txt-hero h1 {
+        font-size: 2em;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .hero-site .txt-hero p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .hero-site .interface {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .vantagens .itens-container {
+        padding: 0 10px;
+    }
+
+    .hoteis h3 {
+        font-size: 2em;
+    }
+
+    .contato .icons-contato button {
+        width: 100%;
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .txt-contato, .icons-contato {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    footer .top-footer button {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    footer .middle-footer a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
